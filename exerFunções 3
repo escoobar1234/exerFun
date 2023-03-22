@@ -1,0 +1,11 @@
+nums = []
+for i in range(6):
+    nums.append(int(input("digite um numero:  ")))
+
+def maior_numero(lista):
+    maior = lista[0]
+    for num in lista:
+        if num > maior:
+            maior = num
+    return print(maior)
+maior_numero(nums)
