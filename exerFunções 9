@@ -1,0 +1,8 @@
+def menor_10(lista):
+    menor = []
+    for i in lista:
+        if i < 10:
+            menor.append(i)
+    print(menor)
+
+menor_10([1,10,11,15,2,5])
