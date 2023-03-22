@@ -1,0 +1,8 @@
+def strinng_longa(lista):
+    mais_longa = lista[0]
+    for i in lista:
+        if len(i) > len(mais_longa):
+            mais_longa = i
+    return print(mais_longa)
+
+strinng_longa(['fsdfadfa','fsfsdsfdgsd','gdafsdfa'])
