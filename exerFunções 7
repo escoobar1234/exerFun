@@ -1,0 +1,10 @@
+nums = []
+impar = []
+for i in range(6):
+    nums.append(int(input("digite um numero:  ")))
+def nums_impar(lista):
+    for c in range(6):
+        if nums[c] % 2 != 0:
+            impar.append(nums[c])
+    return print(impar)
+nums_impar(nums)
