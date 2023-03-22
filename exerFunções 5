@@ -1,0 +1,10 @@
+def palavra_a(lista):
+    palavra_saida = []
+    for i in lista:
+        if i[0] == 'A' or i[0] == 'a':
+            palavra_saida.append(i)
+    print(palavra_saida)
+
+
+palavra_a(["Adfgasfaf","bgfhfgfgh","afsdafd"])
+
