@@ -1,0 +1,8 @@
+def qtd_ocorrencia(lista,num):
+    contador = 0
+    for i in lista:
+        if i == num:
+            contador += 1
+    print(contador)
+
+qtd_ocorrencia([1,2,3,4,4,4,4,4,5,5],4)
